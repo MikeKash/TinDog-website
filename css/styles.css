@@ -85,7 +85,7 @@ p {
 
 #ipone {
     width: 60%;
-    transform: rotate(25deg);
+    transform: rotate(20deg);
     position: absolute;
     z-index: 0;
     right: 30%;
@@ -180,7 +180,7 @@ p {
     margin: 0 8px;
 }
 
-@media (max-width: 1028px) {
+@media only screen and (max-width: 1024px) {
     
     .nav-link {       
         font-size: 1.4rem;
@@ -208,9 +208,9 @@ p {
     }
     
     #ipone {
-    width: 80%;
-    transform: none;
+    width: 60%;
     position: static;
+    margin: 5% auto;
    }
 
    h2 {
@@ -228,6 +228,52 @@ p {
    #cta, #pricing {
        padding: 2rem 2rem;
    }
+   
+}
+
+@media only screen and (max-width: 1024px) and (orientation: landscape) {
+    .big-heading {
+        width: 80%;
+        margin: auto;
+    }
+
+    #ipone {
+        width: 35%;
+        
+    }
+
+    .feature {
+        padding: 2% 2%;
+        font-size: 1.2em;
+    }
+
+}
+
+@media only screen and (max-width: 768px)  and (orientation: landscape) {
+    .nav-link {
+        font-size: 2em;
+    }
+
+    .big-heading {
+        font-size: 3rem;
+        width: 90%;
+        margin: auto;
+    }
+
+    .btn-lg {
+        font-size: 1.5rem;       
+    }
+
+    .download-button {
+        margin: 2% 2%;
+    }
 
    
+
+    .feature {
+        font-size: 1.5rem;
+        padding: 3% 2%;
+    }
+
+    
 }
