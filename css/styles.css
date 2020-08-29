@@ -213,8 +213,9 @@ p {
     margin: 5% auto;
    }
 
-   h2 {
-       font-size: 1.6rem;
+   .testimonial-text {
+       font-size: 1.4rem;
+       height: 20vh;
    }
 
    .testimonial-img {
